@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid--1-cols {
+  grid-template-columns: repeat(6, 1fr);
+}
+.grid--2-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.service-img-1 {
+  background-image: url("/img/bg-service-1.png");
+  
+}
+.service-img-2 {
+  background-image: url("/img/bg-service-2.png");
+  
+}
+.service-img-3 {
+  background-image: url("/img/bg-service-3.png");
+  
+}
+.service-img-4 {
+  background-image: url("/img/bg-service-4.png");
+}
+

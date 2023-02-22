@@ -1,0 +1,677 @@
+/* 1344/16 = 84em */
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+  .service-img {
+    width: 50rem;
+    height: 35rem;
+  }
+
+  .btn-read {
+    text-decoration: none;
+    margin-bottom: 9.6rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .btn-read:link,
+  .btn-read:visited {
+    padding: 0.8rem 2.2rem;
+    color: #0015fa;
+    border: 2px solid #0015fa;
+    border-radius: 15px;
+    font-weight: 500;
+  }
+
+  .btn-read:active,
+  .btn-read:hover {
+    background-color: #0015fa;
+    color: #fff;
+    font-weight: 500;
+  }
+}
+
+/* 1200px/16 = 75em */
+@media (max-width: 75em) {
+  .hero {
+    gap: 6.8rem;
+  }
+  .hero-img {
+    width: 200%;
+  }
+  .teams {
+    width: 20rem;
+    margin: 3.2rem;
+  }
+  .teams img {
+    width: 20rem;
+  }
+  .wrap-team {
+    margin-left: 4.8rem;
+    padding-left: 2rem;
+  }
+  .img-about {
+    margin: 0 4.8rem;
+  }
+  .count-box {
+    width: 20rem;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  .service-img {
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    width: 50rem;
+    height: 30rem;
+  }
+  .service-card {
+    width: 25rem;
+    margin: 15rem 2rem;
+  }
+  .testimonial {
+    width: 25rem;
+  }
+
+  .grid-portofolio {
+    padding-left: 1.6rem;
+  }
+  .wrap-team {
+    margin: 2.2rem;
+  }
+
+  .teams {
+    margin: 1.6rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .hero {
+    max-width: 94.4rem;
+  }
+  .logo {
+    width: 80%;
+    height: auto;
+  }
+  .main-nav-list {
+    gap: 1.6rem;
+  }
+  .main-nav-list .nav-buy {
+    font-size: 1.6rem;
+    width: 9rem;
+  }
+  .heading-primary {
+    font-size: 2.2rem;
+  }
+  .hero-description {
+    font-size: 1.6rem;
+  }
+  .img-about {
+    width: 25rem;
+    box-shadow: 0 2.2rem 4.8rem rgba(0, 0, 0, 0.05);
+  }
+  picture {
+    width: 38rem;
+  }
+  .count-box-flex {
+    column-gap: 1rem;
+    row-gap: 3.2rem;
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+
+  .icon-service {
+    height: 2.2rem;
+    width: 2.2rem;
+    padding: 0.8rem;
+  }
+  .service-img {
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    width: 30rem;
+    height: 30rem;
+  }
+  .service-card {
+    width: 20rem;
+    height: auto;
+    font-size: 1.2rem;
+    margin: 12rem 5rem;
+  }
+  .service-card:hover,
+  .service-card:active {
+    background-color: #9090eb;
+    transform: scale(1.1);
+  }
+
+  .service-card:link,
+  .service-card:visited {
+    background-color: #9090eb;
+    transform: scale(1.1);
+  }
+  .service-row {
+    margin-left: 1rem;
+  }
+
+  /* Testimonia; */
+
+  .testimonial {
+    width: 20rem;
+  }
+  .testimonials {
+    padding-left: 4rem;
+  }
+
+  /* PORTOFOLIO */
+  .grid-portofolio {
+    padding: 1rem;
+    width: 2rem;
+  }
+  .img-porto {
+    padding: 2rem;
+  }
+
+  .icon-porto {
+    padding: 0.6rem;
+  }
+
+  /* team */
+  .teams {
+    width: 15rem;
+    height: auto;
+    margin: 3.2rem;
+  }
+  .teams img {
+    width: 15rem;
+  }
+  .wrap-team {
+    padding-left: 1rem;
+  }
+
+  .princing {
+    padding: 1.6rem;
+    width: 20rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .wrap-btn-buy {
+    margin-left: 4rem;
+  }
+
+  .wrap-btn-buy:hover,
+  .wrap-btn-buy:active {
+    background-color: #0015fa;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .wrap-btn-buy:link,
+  .wrap-btn-buy:visited {
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0015fa;
+    transition: all 0.4s;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Tablets) */
+/**************************/
+@media (max-width: 44em) {
+  .hero {
+    max-width: 70.4rem;
+  }
+  .logo {
+    width: 80%;
+    height: auto;
+  }
+  .main-nav-list {
+    gap: 1.2rem;
+  }
+  .main-nav-list .nav-buy {
+    font-size: 0.8rem;
+    width: 7rem;
+    height: auto;
+  }
+  .heading-primary {
+    font-size: 1.6rem;
+  }
+  .hero-description {
+    font-size: 1rem;
+  }
+  .img-about {
+    width: 25rem;
+    box-shadow: 0 2.2rem 4.8rem rgba(0, 0, 0, 0.05);
+  }
+  picture {
+    width: 38rem;
+  }
+  .count-box-flex {
+    column-gap: 1rem;
+    row-gap: 3.2rem;
+    font-size: 2.2rem;
+    padding-right: 2rem;
+  }
+  .hero-text-box {
+    padding: 0 3.2rem 0 0rem;
+  }
+  .section-hero {
+    padding-top: 1rem;
+  }
+  .hero {
+    padding-top: 1rem;
+    padding-left: 13rem;
+  }
+  .hero-img-box {
+    padding: 0 20rem 10rem 0;
+  }
+
+  /* ABOUT US */
+  .title {
+    margin-top: 2rem;
+    font-size: 3.2rem;
+    text-align: center;
+  }
+  .text-about {
+    font-size: 1.6rem;
+  }
+
+  .img-about {
+    width: 20rem;
+    margin: 0 3.2rem;
+    box-shadow: 0 2.2rem 4.8rem rgba(0, 0, 0, 0.05);
+  }
+  picture {
+    width: 30rem;
+  }
+  .title-count {
+    font-size: 2.2rem;
+  }
+  .text-count {
+    font-size: 1.2rem;
+  }
+
+  .section-service {
+    margin-top: 1rem;
+  }
+
+  .service-box {
+    padding: 1.6rem 1.6rem;
+    background-color: #e3e3ff;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    font-size: 1.2rem;
+    border-radius: 10%;
+    transition: all 0.4s;
+
+    /* delay */
+  }
+  .service-img {
+    background-repeat: no-repeat;
+    background-size: rem;
+    width: 25rem;
+    height: 20rem;
+  }
+  .service-card {
+    width: 20rem;
+    height: auto;
+    font-size: 1.2rem;
+    margin: 6rem 3rem;
+  }
+  .service-card:hover,
+  .service-card:active {
+    background-color: #9090eb;
+    transform: scale(1.1);
+  }
+
+  .service-card:link,
+  .service-card:visited {
+    background-color: #9090eb;
+    transform: scale(1.1);
+  }
+  .service-row {
+    padding-left: 0;
+  }
+  .testimonial {
+    width: 15rem;
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+  .testimonials {
+    padding-left: 2rem;
+  }
+  .section-testimoni-wrap {
+    margin-left: 0;
+  }
+
+  /* PORTOFOLIO */
+  .grid-portofolio {
+    padding: 1rem;
+    width: 1rem;
+  }
+  .img-porto {
+    padding: 1rem;
+  }
+  .grid-portofolio img {
+    width: 20rem;
+    border-radius: 2rem;
+  }
+  .grid-portofolio h3 {
+    font-size: 1.6rem;
+  }
+  .icon-porto {
+    padding: 0.6rem;
+  }
+
+  /* team */
+  .wrap-team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .teams {
+    width: 25rem;
+    height: auto;
+    margin: 2.2rem;
+  }
+  .teams img {
+    width: 25rem;
+  }
+
+  .princing {
+    padding: 1.6rem;
+    width: 20rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .wrap-btn-buy {
+    margin-left: 4rem;
+  }
+
+  .wrap-btn-buy:hover,
+  .wrap-btn-buy:active {
+    background-color: #0015fa;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .wrap-btn-buy:link,
+  .wrap-btn-buy:visited {
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0015fa;
+    transition: all 0.4s;
+  }
+  .btn-message {
+    width: 15rem;
+    margin-left: 8rem;
+    border-radius: 2rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Tablets) */
+/**************************/
+@media (max-width: 34em) {
+  .header {
+    padding: 0 3.2rem;
+  }
+  .logo {
+    width: 80%;
+    height: auto;
+  }
+  .main-nav-list .main-nav-link {
+    font-size: 0.8rem;
+  }
+  .main-nav-list {
+    gap: 0.6rem;
+    font-size: 0.6rem;
+  }
+  .main-nav-list .nav-buy {
+    font-size: 0.8rem;
+    width: 7rem;
+    height: auto;
+  }
+  .heading-primary {
+    font-size: 1.6rem;
+  }
+  .hero-description {
+    font-size: 1rem;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-text-box {
+    width: 35rem;
+    margin-bottom: 1rem;
+    margin-right: 7rem;
+  }
+
+  .btn-read:link,
+  .btn-read:visited {
+    padding: 0.8rem 2.2rem;
+    color: #0015fa;
+    border: 2px solid #0015fa;
+    border-radius: 15px;
+    font-weight: 500;
+  }
+
+  .btn-read:active,
+  .btn-read:hover {
+    background-color: #0015fa;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .hero-img {
+    width: 100%;
+    margin-left: 5rem;
+  }
+  .hero-brand-watches {
+    margin-top: 0.5rem;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 4rem;
+  }
+
+  .text-about {
+    font-size: 1.6rem;
+    width: 30rem;
+    padding: 0 3.2rem;
+    text-align: center;
+    margin: 2rem 3.2rem;
+  }
+  .row-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 2rem 1rem;
+  }
+  .btn-row {
+    padding: 0.6rem 1.6rem;
+    margin: 2rem 13rem;
+  }
+  .img-about {
+    width: 20rem;
+    margin: 0 4rem;
+    box-shadow: 0 2.2rem 4.8rem rgba(0, 0, 0, 0.05);
+  }
+  picture {
+    width: 20rem;
+  }
+  .title-count {
+    font-size: 1.6rem;
+  }
+  .count-box {
+    width: 15rem;
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+  }
+  .row-content-down img {
+    margin-left: 7rem;
+  }
+  .row-content-down {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1.6rem;
+  }
+
+  .section-service {
+    padding: 0;
+  }
+
+  .service-box {
+    width: 15rem;
+    padding: 1.2rem 1.2rem;
+    background-color: #e3e3ff;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    font-size: 1.2rem;
+    border-radius: 10%;
+    transition: all 0.4s;
+
+    /* delay */
+  }
+  .service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 1rem;
+  }
+  .service-img {
+    background-repeat: no-repeat;
+    background-size: 15rem;
+    width: 15rem;
+    height: 15rem;
+  }
+  .service-card {
+    width: 13rem;
+    height: auto;
+    font-size: 1rem;
+    margin: 2rem 1rem;
+  }
+  .service-card:hover,
+  .service-card:active {
+    background-color: #9090eb;
+    transform: scale(1.1);
+  }
+
+  .service-card:link,
+  .service-card:visited {
+    background-color: #9090eb;
+    transform: scale(1.1);
+  }
+  .service-row {
+    margin: 1rem;
+  }
+  .section-testimonial .testimonials {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 1.6rem 4.8rem;
+    gap: 1.2rem;
+  }
+  .testimonials {
+    padding-left: 0.8rem;
+  }
+  .testimonial {
+    width: 20rem;
+    padding: 2rem 4rem;
+    margin-left: 1rem;
+  }
+  .section-testimoni-wrap {
+    margin-left: 0;
+  }
+
+  /* FEATURE */
+  .features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 2rem;
+  }
+  /* PORTOFOLIO */
+  .wrap-grid-portofolio {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .portofolio {
+    margin-left: 2rem;
+  }
+  .img-porto {
+    padding: 1rem;
+  }
+  .grid-portofolio img {
+    width: 30rem;
+    border-radius: 2rem;
+  }
+  .grid-portofolio h3 {
+    font-size: 1.6rem;
+  }
+  .icon-porto {
+    padding: 0.6rem;
+  }
+
+  /* team */
+  .wrap-team {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .teams {
+    width: 25rem;
+    height: auto;
+  }
+  .teams img {
+    width: 25rem;
+  }
+
+  /* princing */
+  .wrap-princing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .princing {
+    padding: 1.6rem;
+    width: 30rem;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    margin: 1rem 10rem;
+  }
+  .wrap-btn-buy {
+    margin-left: 9rem;
+  }
+
+  .wrap-btn-buy:hover,
+  .wrap-btn-buy:active {
+    background-color: #0015fa;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .wrap-btn-buy:link,
+  .wrap-btn-buy:visited {
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0015fa;
+    transition: all 0.4s;
+  }
+  .btn-message {
+    width: 15rem;
+    margin-left: 8rem;
+    border-radius: 2rem;
+  }
+
+  /* Contact Us */
+  .wrap-contact {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 3rem;
+    text-align: center;
+  }
+
+  .contact {
+    width: 30rem;
+  }
+}
